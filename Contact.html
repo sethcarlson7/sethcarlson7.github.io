@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="Contact.css">
+    <title>Seth Carlson</title>
+  </head>
+
+  <body>
+    <nav role=navigation class="top-nav">
+      <ul>
+          <a href="./index.html"><li nav >home</li></a>
+          <li><a aria-haspopup="true" aria-expanded="false">work</a>
+              <ul class="pulldown-menu">
+                  <a href="./NUMeeting.html"><li>NUMeeting</li></a>
+                  <a href="./Frogger.html"><li>Frogger</li></a>
+                  <a href="./MovingPuzzle.html"><li>Moving Puzzle</li></a>
+              </ul>
+          </li>
+          <a href="./about.html"><li>about</li></a>
+          <a  href="./Contact.html"><li aria-current="page">contact</li></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/16pf6aeKedODyf9MxjPL7BTztsR7CNSKQ/view?usp=sharing"><li>resume</li></a>
+          </li>
+      </ul>
+      </nav>
+
+    <main>
+
+      <div class="project">
+        <div class="project_title">Contact</div>
+        <div class="project_subtext">Any questions or comments? Reach out! Submitting the form below will allow you to directly reach me by email.</div>
+      </div>
+
+
+      <div class="contact_form">
+        <form id="form">
+          <div class="field">
+            <label for="Name" class="field-text">Name<br></label>
+            <input type="text" name="Name" id="Name">
+          </div>
+          <div class="field">
+            <label for="Email" class="field-text">Email<br></label>
+            <input type="text" name="Email" id="Email">
+          </div>
+          <div class="field">
+            <label for="Subject" class="field-text">Subject<br></label>
+            <input type="text" name="Subject" id="Subject">
+          </div>
+          <div class="field">
+            <label for="Message" class="field-text">Message<br></label>
+            <textarea rows="8" type="text" name="Message" id="Message"></textarea>
+          </div>
+        
+          <div class="center_button">
+            <input class="button-37"type="submit" id="button" value="Send">
+          </div>
+
+        </form>
+      </div>
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      
+      <script type="text/javascript">
+        emailjs.init('pABKMWkpQD4bG4J2e')
+      </script>
+
+      <script src="Contact.js"></script>
+    </main>
+</body>
+</html>

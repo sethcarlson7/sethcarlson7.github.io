@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="NUMeeting.css">
+        <link rel='stylesheet' href="https://fonts.googleapis.com/css?family=EBGaramond">
+        <title>Seth Carlson</title>
+    </head>
+
+
+    <body>
+        <nav role=navigation class="top-nav">
+            <ul>
+                <a href="./index.html"><li nav>home</li></a>
+                <li aria-current="page"><a aria-haspopup="true" aria-expanded="false">work</a>
+                    <ul class="pulldown-menu">
+                        <a href="./NUMeeting.html"><li>NUMeeting</li></a>
+                        <a href="./Frogger.html"><li>Frogger</li></a>
+                        <a href="./MovingPuzzle.html"><li>Moving Puzzle</li></a>
+                    </ul>
+                </li>
+                <a href="./about.html"><li>about</li></a>
+                <a href="./Contact.html"><li>contact</li></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/16pf6aeKedODyf9MxjPL7BTztsR7CNSKQ/view?usp=sharing"><li>resume</li></a>
+                </li>
+            </ul>
+            </nav>
+
+
+        <main>
+
+            <div class="project">
+                <div class="project_title">NUMeeting</div>
+                <div class="project_subtext">IEEE WebDev Team<br>Dec '21 - Mar '22</div>
+            </div>
+
+            <div class="presentation">
+                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR-4IQbY576WR7P2o2M0Al15HSMOl0ybILY-JMSR_p8M0P8Rf5dzfobE3RVAdl0F4NiREIb3lf0brn2/embed?start=true&loop=true&delayms=3000" frameborder="0" width="500px" height="400px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            </div>
+            <div class="the_problem">
+                <div class="problem_intro">The Problem</div>
+                <div class="problem_desc">
+                    <p>
+                        During my first year at Northwestern, I joined IEEE and was assigned to a Web Development team. While trying to come up with project ideas, we found ourselves
+                        struggling to organize a time for us all to meet. The common solution for many orgs on campus has always been <a target="_blank" rel="noopener noreferrer" href="https://www.when2meet.com">when2meet</a>
+                        which takes people's schedules into account and visualizes when people are most available. Our goal was to improve upon when2meet's design while adding the
+                        ability for users to sync their Google calendars to bypass the tedious process of filling in their schedules for every meeting. In developing our idea, I worked
+                        with a peer primarily on the frontend implementation. We weren't able to achieve integration between frontend and backend due to time constraints but the frontend demo
+                        showcase our main objectives.  
+                    </p>
+                </div>
+            </div>
+            
+            <div class="screenshots">
+                <div class="screenshots_title">
+                    Screenshots
+                </div>
+                <div class="ss1">
+                    <img src="images/P6_NU2Meet.png" alt="NUMeeting Landing Page"/>
+                    <p>
+                        This is the landing page of the site. It makes use of a calendar to store all of the meetings that have been established. On the right side, there's a panel for Unestablished meetings
+                        meaning the meeting host hasn't picked a date/time that works for most people. Once they do, it'll be pushed to everyone's main calendar. 
+                    </p>
+                </div>
+                <div class="ss2">
+                    <img src="images/P6_NU2Meet_MeetingInfo.png" alt="Meeting Info"/>
+                    <p>
+                        This is the information pop-up that appears when you select a meeting. It includes a table showing people's availability as well as whose in the meeting. Given more time, we would've liked to 
+                        create a separate page dedicated to editting meetings, including the special capabilities of the host. 
+                    </p>
+                </div>
+                <div class="ss3">
+                    <img src="images/P6_NU2Meet_NewMeeting.png" alt="Make a New Meeting"/>
+                    <p>
+                        This is the form submission when creating a new meeting. Given a range of dates as well as a range of possible meeting time, the next page is supposed to create a table with those constraints. 
+                    </p>
+                </div>
+                <div class="ss4">
+                    <img src="images/P6_NU2Meet_Table.png" alt="Fill in Schedule"/>
+                    <p>
+                        And lastly, this is the table where users can input their availability. Users can drag the mouse to easily select available times as well as deselect times if they happen to make a mistake. 
+                        The button to the right is where Google Calendar syncing comes into play so that users don't have to manually fill the table in everytime. The backend team was able to achieve this functionality 
+                        but we unfortunately didn't have enough time to integrate it with the frontend. 
+                    </p>
+                </div>
+            </div>
+
+
+        </main>
+    </body>
+
+</html>

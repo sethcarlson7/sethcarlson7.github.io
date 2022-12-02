@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="Frogger.css">
+        <link rel='stylesheet' href="https://fonts.googleapis.com/css?family=EBGaramond">
+        <title>Seth Carlson</title>
+    </head>
+
+
+    <body>
+        <nav role=navigation class="top-nav">
+            <ul>
+                <a href="./index.html"><li nav>home</li></a>
+                <li aria-current="page"><a aria-haspopup="true" aria-expanded="false">work</a>
+                    <ul class="pulldown-menu">
+                        <a href="./NUMeeting.html"><li>NUMeeting</li></a>
+                        <a href="./Frogger.html"><li>Frogger</li></a>
+                        <a href="./MovingPuzzle.html"><li>Moving Puzzle</li></a>
+                    </ul>
+                </li>
+                <a href="./about.html"><li>about</li></a>
+                <a href="./Contact.html"><li>contact</li></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/16pf6aeKedODyf9MxjPL7BTztsR7CNSKQ/view?usp=sharing"><li>resume</li></a>
+                </li>
+            </ul>
+            </nav>
+
+
+        <main>
+
+            <div class="project">
+                <div class="project_title">Frogger</div>
+                <div class="project_subtext">CS 211: Fundamental Programming II<br>May '22</div>
+            </div>
+
+            <div class="presentation">
+                <video width="500" height="400" controls autoplay muted>
+                    <source src="images/P6_FroggerRecording.webm" type='video/webm'>
+                </video>
+            </div>
+            <div class="the_problem">
+                <div class="problem_intro">The Problem</div>
+                <div class="problem_desc">
+                    <p>
+                        During the Spring quarter of my freshman year, the final assignment for my programming class was to code a game in C++ given your own specifications. I've always
+                        really enjoyed playing retro arcade games and I saw this as an opportunity to recreate one of the classics: Frogger. The main difficulty was figuring out how to 
+                        represent the lane objects, given that they interact differently with the frog and have their own lane velocity values. The solution was to make each lane its 
+                        own predetermined pattern of objects and velocity, that the view loops through before wrapping around at the end. This was a fun project and improved my ability to 
+                        execute a plan for development, even though my ability to actually play Frogger remains subpar. 
+                    </p>
+                </div>
+            </div>
+
+        </main>
+    </body>
+
+</html>

@@ -1,0 +1,118 @@
+nav.top-nav{
+    background-color: #111;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    /* box-shadow: 0px 4px 4px rgb(41, 41, 41); */
+}
+
+nav [aria-current=page]{
+    border-bottom: .25em solid rgb(255, 193, 253);
+}
+
+body {
+    background: #111;
+}
+
+main {
+    margin-top: 100px;
+    margin-left: 2em;
+}
+
+nav.top-nav li{
+    display: inline-block;
+    font-family: 'EB Garamond';
+    font-size: 20px;
+    font-weight: normal;
+    margin: 10px;
+    margin-right: 30px;
+    color: #fefaf6;
+    user-select: none;
+    text-decoration: none;
+
+    transition: all .1s ease-in-out; 
+}
+
+
+nav.top-nav li:hover{
+    border-bottom: .25em solid rgb(255, 193, 253);
+    transform: scale(1.1);
+}
+
+/* nav.top-nav ul{
+    list-style: none;
+} */
+
+nav.top-nav .pulldown-menu li{
+    display: block;
+    padding: 5px;
+    width: 125px;
+}
+
+nav.top-nav .pulldown-menu a{
+    text-decoration: none;
+}
+
+nav.top-nav .pulldown-menu {
+    display: none;
+    position: absolute;
+    border: 1px solid white;
+    background-color: #111;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 6px;
+    
+}
+
+nav.top-nav li:hover .pulldown-menu{
+    display:block;
+}
+
+
+.bio{
+    border: 2px solid #fefaf6;
+    border-radius: 10px;
+    width: 800px; 
+    display: inline-block;
+    vertical-align: middle;
+}
+.bio_header {
+    font-family: 'EB Garamond', Garamond, serif;
+    font-size: 35px;
+    color: #fefaf6;
+    margin-top: 20px; 
+    margin-bottom: 40px;
+    margin-left: 20px; 
+    margin-right: 20px;
+    line-height: 130%;
+}
+
+.bio_body {
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #fefaf6;
+    margin-top: 4px; 
+    margin-bottom: 20px;
+    margin-left: 20px; 
+    margin-right: 20px;
+    line-height: 140%;
+}
+
+.dog_pic {
+    display: inline-block;
+}
+
+.dog_pic img {
+    width: 400px;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.clickable_org {
+    text-decoration: none;
+    color: #fefaf6;
+    border-bottom: .10em solid rgb(255, 193, 253);
+}
